@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(19, 20, 49, 0.8);
+  line-height: 1.5;
+}
+
+.main__container {
+  max-width: 500px;
+  width: 100%;
+}
+.main__container .form__container {
+  width: 100%;
+  margin: 50px auto;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 50px 30px;
+  border-radius: 20px;
+}
+.main__container .form__container h2 {
+  font-size: 32px;
+  text-align: center;
+  margin: 0 0 20px;
+  color: #6741D9;
+}
+.main__container .form__container .form__input {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+.main__container .form__container .form__input span {
+  position: absolute;
+  right: 15px;
+  font-size: 26px;
+  top: 10px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.main__container .form__container .form__input span:hover {
+  opacity: 1;
+}
+.main__container .form__container .form__input label {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+}
+.main__container .form__container .form__input input:not([type=submit]) {
+  width: 100%;
+  padding: 10px 15px;
+  height: 45px;
+  outline: 0;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 0px 0px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.main__container .form__container .form__input input:not([type=submit])::placeholder {
+  color: rgba(19, 20, 49, 0.4);
+}
+.gridside {
+  display:grid; 
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 5px;
+}
+
+.gridtwo {
+  display:grid; 
+  grid-template-columns: auto auto ;
+}
+
+.heightsmall {
+  text-align: center;
+  margin-top: 20px;
+  height: 30px;
+}
+button {
+  color: #FFF;
+  background-color: #6741D9;
+  font-size: 18px;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-align: center;
+  outline: 0;
+  cursor: pointer;
+  width: max-content;
+}
+button:hover {
+  background-color: #4827a9;
+  transition: background-color 400ms ease;
+}
+body {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #030303;
+    margin-top: 50px;
+
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 32px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  form-control {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+  }
+  
+  .btn {
+    width: 600px;
+    margin: 15px auto;
+  }
+  
+  .btn-primary {
+    background-color: #6741D9;
+  }
+  
+  .btn-primary:hover, .btn-primary:active {
+    border: 1px solid #F0C3F1;
+  }
+  
+  .graph-container {
+    width: 600px;
+  }
+  
+  .graph-bar {
+    background-color: #F0C3F1;
+  }
+  
+  .graph-axis {
+    color: #ffffff;
+  }
+  
+  .disabled {
+    background-color: #C2C2C2 !important;
+    border: 1px solid #C2C2C2 !important;
+  }
+  
+  .radio-btn {
+    background-color: #ffffff;
+  }
+  
+  .radio-btn:checked {
+    background-color: #6741D9;
+  }
+  
+  .disabled-field {
+    background-color: #C2C2C2;
+    border: 1px solid #C2C2C2;
+  }
+  
